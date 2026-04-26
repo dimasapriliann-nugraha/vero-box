@@ -937,9 +937,9 @@
             if (WEB3FORMS_ACCESS_KEY !== "YOUR_ACCESS_KEY_HERE") {
                 try {
                     const formData = new FormData();
-                    formData.append('access_key', YOUR_ACCESS_KEY_HERE);
-                    formData.append('subject', 'dimasapriliann@gmail.com');
-                    formData.append('from_name', 'Ravero');
+                    formData.append('access_key', WEB3FORMS_ACCESS_KEY);
+                    formData.append('subject', 'Pesan Anonim Baru di WhisperBox');
+                    formData.append('from_name', 'WhisperBox');
                     formData.append('message', `Pesan anonim baru:\n\n${message}`);
                     
                     await fetch('https://api.web3forms.com/submit', {
